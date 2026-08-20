@@ -236,17 +236,25 @@
   
   ## 📁 Project Structure
   
-  bert-sentiment-analysis/
-  ├── BERT_Sentiment_Analysis.ipynb
-  ├── requirements.txt
-  ├── final_results.csv
-  └── best_model/
-      ├── config.json
-      ├── model.safetensors
-      ├── tokenizer.json
-      ├── tokenizer_config.json
-      ├── special_tokens_map.json
-      └── vocab.txt
+BERT-Sentiment-Analysis/
+│
+├── BERT_Sentiment_Analysis.ipynb
+├── README.md
+├── requirements.txt
+├── final_results.csv
+│
+├── screenshots/
+│   ├── final_test_results.jpg
+│   ├── confusion_matrix.png
+│   └── sample_predictions.jpg
+│
+└── best_model/
+    ├── config.json
+    ├── model.safetensors
+    ├── tokenizer.json
+    ├── tokenizer_config.json
+    ├── special_tokens_map.json
+    └── vocab.txt
   
   > The trained model files are saved separately when repository size limitations apply.
   
