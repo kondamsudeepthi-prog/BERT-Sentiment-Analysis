@@ -141,7 +141,7 @@
   
   ### Final Test Results
 
-![Final Test Results](screenshots/final_test_results.png)
+![Final Test Results](screenshots/final_test_results.jpg)
 
   ### Result Summary
   
@@ -186,7 +186,7 @@
 
   ### Sample Predictions
 
-![Sample Predictions](screenshots/sample_predictions.png)
+![Sample Predictions](screenshots/sample_predictions.jpg)
   
   ### Prediction Example
   
