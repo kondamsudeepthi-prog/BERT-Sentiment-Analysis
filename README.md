@@ -139,6 +139,10 @@
   | **F1-score** | **69.42%** |
   | Test Loss | **0.7489** |
   
+  ### Final Test Results
+
+![Final Test Results](screenshots/final_test_results.png)
+
   ### Result Summary
   
   The final BERT model achieved approximately **69.4% accuracy** and **69.42% weighted F1-score** on the unseen test set.
@@ -154,6 +158,10 @@
   | **Negative** | 2864 | 962 | 146 |
   | **Neutral** | 1089 | 3890 | 958 |
   | **Positive** | 43 | 561 | 1771 |
+
+  ### Confusion Matrix
+
+![BERT Sentiment Analysis - Confusion Matrix](screenshots/confusion_matrix.png)
   
   ### Interpretation
   
@@ -175,6 +183,10 @@
   | `I absolutely love this movie!` | Positive |
   | `The movie was okay, nothing special.` | Positive |
   | `This is the worst experience ever.` | Negative |
+
+  ### Sample Predictions
+
+![Sample Predictions](screenshots/sample_predictions.png)
   
   ### Prediction Example
   
@@ -225,7 +237,7 @@
   ## 📁 Project Structure
   
   bert-sentiment-analysis/
-  ├── BERT_Sentiment_Analysis_Final.ipynb
+  ├── BERT_Sentiment_Analysis.ipynb
   ├── requirements.txt
   ├── final_results.csv
   └── best_model/
